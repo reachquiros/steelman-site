@@ -1,0 +1,26 @@
+/* .body {
+  height: 1800px;
+} */
+
+.title {
+  font-family: "Nanum Myeongjo", serif;
+  font-size: 2em;
+}
+
+.subtitle {
+  font-family: "Nanum Myeongjo", serif;
+  font-size: 1.5em;
+}
+/* 
+.fadeInImage {
+  animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+} */
