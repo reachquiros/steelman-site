@@ -12,7 +12,7 @@ const Nav = (props) => {
     <div>
       <nav className="navbar py-0 navbar-expand-lg navbar-light">
         <div className="container-fluid">
-          <Link to="/home" className={`navbar-brand ${styles.brand}`}>
+          <Link to="/" className={`navbar-brand ${styles.brand}`}>
             <img
               src={Steelman_Logo}
               alt=""

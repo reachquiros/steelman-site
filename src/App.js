@@ -15,7 +15,7 @@ function App() {
       <div className="container-fluid px-0">
         <Header />
         <Routes>
-          <Route exact path="/home" element={<Home />}></Route>
+          <Route path="/" element={<Home />}></Route>
           <Route exact path="/what-is" element={<WhatIs />}></Route>
           <Route exact path="/events" element={<Events />}></Route>
           <Route exact path="/locations" element={<Locations />}></Route>
