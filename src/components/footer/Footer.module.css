@@ -7,3 +7,12 @@
   height: 25px;
   width: 25px;
 }
+
+.icon {
+  transition-duration: 0.15s;
+}
+
+.icon:hover {
+  transform: scale(1.25);
+  cursor: pointer;
+}
