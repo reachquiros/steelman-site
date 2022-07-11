@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Nav.module.css";
+import "./Nav.css";
 import Steelman_Logo from "../../assets/images/Steelman_Logo.png";
 import "bootstrap/js/src/collapse.js";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -24,7 +25,7 @@ const Nav = (props) => {
           </Link>
 
           <button
-            className="navbar-toggler border-0"
+            className="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#toggleMobileMenu"
@@ -32,7 +33,9 @@ const Nav = (props) => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className={`navbar-toggler-icon ${styles.togglerBtn}`}></span>
+            <span className="toggler-icon top-bar"></span>
+            <span className="toggler-icon middle-bar"></span>
+            <span className="toggler-icon bottom-bar"></span>
           </button>
           <div className="collapse navbar-collapse" id="toggleMobileMenu">
             <ul className="navbar-nav mb-lg-0 text-center  ms-auto">

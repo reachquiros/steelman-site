@@ -6,3 +6,5 @@
 6. Create a user UI for managing events, info, etc, that is "live". 
 7. Add in scrolling animation to the home page.
 8. Fix images and optimize for media queries.
+9. Re-import banner img (imperfection).
+10. Add icon to the tab. 
