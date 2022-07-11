@@ -25,7 +25,7 @@ const Nav = (props) => {
           </Link>
 
           <button
-            className="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around"
+            className="navbar-toggler collapsed mx-2 d-flex d-lg-none flex-column justify-content-around"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#toggleMobileMenu"
