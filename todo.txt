@@ -1,11 +1,7 @@
 1. Need to make adjustments for mobile (images need to resize, container for social icons needs to be adjusted, etc).
-2. Create animations for the toggle button, links, icons and cards.
-3. Create the other pages. -
+3. Create the other pages. 
 4. Add in the login form. 
 5. Connect with backend database. 
-6. Create a user UI for managing events, info, etc, that is "live". 
-7. Add in scrolling animation to the home page: use aos. 
-8. Fix images and optimize for media queries.
-9. Re-import banner img (imperfection).
-10. Add icon to the tab. 
+6. Create a user UI for managing events, info, etc, that is "live".  
+8. Fix cards and optimize for media queries.
 11. Set fixed images for home page.
