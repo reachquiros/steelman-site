@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import styles from "./WhatIs.module.css";
 import van_grayscale from "../../assets/images/van_grayscale.jpg";
 
 const WhatIs = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <div>
       <div className="container-fluid p-0"></div>
@@ -12,8 +17,8 @@ const WhatIs = () => {
           Steelman Society is about being the change we want to see in the world
         </h1>
       </div>
-      <div className="">
-        <main className={`container-fluid bg-light ${styles.main} `}>
+      <div data-aos="fade-up" className="">
+        <main className={`container-fluid ${styles.main} `}>
           <div className="container text-center">
             <h2 className="display-6 pt-5">Lorem ipsum dolor sit amet.</h2>
             <p className="display-9 mb-5 p-5">
