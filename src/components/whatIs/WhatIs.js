@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
+import styles from "./WhatIs.module.css";
 import van_grayscale from "../../assets/images/van_grayscale.jpg";
 // import Aos from "aos";
 // import "aos/dist/aos.css";
-import styles from "./WhatIs.module.css";
 
 const WhatIs = () => {
   // useEffect(() => {
