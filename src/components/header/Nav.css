@@ -69,3 +69,38 @@
 .navbar-toggler.collapsed .toggler-icon {
   background: #13486d;
 }
+
+.nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #13486d;
+  padding: 15px 0px;
+  margin: 0px 15px;
+  display: inline-block;
+  position: relative;
+  opacity: 0.75;
+}
+
+.nav-link:hover {
+  opacity: 1;
+}
+
+.nav-link::before {
+  transition: 300ms;
+  height: 1px;
+  content: "";
+  position: absolute;
+  background-color: #13486d;
+}
+
+.nav-link-ltr::before {
+  width: 0%;
+  bottom: 5px;
+}
+
+.nav-link-ltr:hover::before {
+  width: 100%;
+  left: 0;
+  right: 0;
+}

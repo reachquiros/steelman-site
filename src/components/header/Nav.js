@@ -39,23 +39,23 @@ const Nav = (props) => {
           </button>
           <div className="collapse navbar-collapse" id="toggleMobileMenu">
             <ul className="navbar-nav mb-lg-0 text-center  ms-auto">
-              <li className="nav-item">
-                <Link to="/what-is" className="nav-link">
+              <li className="nav-item ">
+                <Link to="/what-is" className="nav-link nav-link-ltr">
                   What Is The Steelman Society
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/events" className="nav-link">
+                <Link to="/events" className="nav-link nav-link-ltr">
                   Events
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/locations" className="nav-link">
+                <Link to="/locations" className="nav-link nav-link-ltr">
                   Locations
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/contact-us" className="nav-link">
+                <Link to="/contact-us" className="nav-link nav-link-ltr">
                   Contact Us
                 </Link>
               </li>
