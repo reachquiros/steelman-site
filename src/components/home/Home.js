@@ -18,7 +18,7 @@ const Home = (props) => {
       <div data-aos="fade-up">
         <div className="my-5 mx-2">
           <div className="p-5 m-5 text-center">
-            <h1 className={` bg-primary ${styles.title}`}>
+            <h1 className={`${styles.title}`}>
               Lorem ipsum, dolor sit amet consectetur adipisicing.
             </h1>
 
