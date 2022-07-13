@@ -5,3 +5,4 @@
 6. Create a user UI for managing events, info, etc, that is "live".  
 8. Fix cards and optimize for media queries.
 11. Set fixed images for home page.
+12. Create collage for events page.
