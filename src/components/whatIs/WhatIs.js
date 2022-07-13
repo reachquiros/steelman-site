@@ -73,7 +73,7 @@ const WhatIs = () => {
                 <h1>
                   <div className="display-5">Our Method</div>
                   <div className="display-6 text-muted">
-                    Growth through strife
+                    Growth Through Strife
                   </div>
                 </h1>
                 <p className="lead my-4">

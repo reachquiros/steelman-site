@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import home_front from "../../assets/images/home_front.jpg";
+import typewriter_open from "../../assets/images/typewriter_open.jpg";
 import mid_elem_leaf from "../../assets/images/mid_elem_leaf.jpg";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -11,9 +12,9 @@ const Home = (props) => {
     Aos.init({ duration: 2000 });
   }, []);
   return (
-    <div className={` ${styles.body} `}>
+    <div className={`${styles.body} `}>
       <div className="container-fluid p-0">
-        <img src={home_front} alt="" className="img-fluid shadow-sm" />
+        <img src={typewriter_open} alt="" className="img-fluid height-auto " />
       </div>
       <div data-aos="fade-in">
         <div className="my-5 mx-2">
