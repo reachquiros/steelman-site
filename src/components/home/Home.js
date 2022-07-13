@@ -15,7 +15,7 @@ const Home = (props) => {
       <div className="container-fluid p-0">
         <img src={home_front} alt="" className="img-fluid shadow-sm" />
       </div>
-      <div data-aos="fade-up">
+      <div data-aos="fade-in">
         <div className="my-5 mx-2">
           <div className="p-5 m-5 text-center">
             <h1 className={`${styles.title}`}>
