@@ -6,3 +6,9 @@
 8. Fix cards and optimize for media queries.
 11. Set fixed images for home page.
 12. Create collage for events page.
+13. Add dark mode to website that uses cookies to remember your choice. 
+
+----- Dark mode
+1. Refactor code to only use bootstrap for responsiveness. 
+2. Create css variables for global light and dark mode. 
+3. Create CSS Modules so the components are as reusable as possible. 

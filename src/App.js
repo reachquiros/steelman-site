@@ -1,4 +1,7 @@
+import React from "react";
 import styles from "./App.module.css";
+import DarkMode from "./components/dark-mode/DarkMode";
+import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Routes, Route } from "react-router-dom";
 import Header from "./components/header/Header";
@@ -11,7 +14,7 @@ import ContactUs from "./components/contact-us/ContactUs";
 
 function App() {
   return (
-    <div className={`App ${styles.body}`}>
+    <div className={`App`}>
       <div className="container-fluid px-0">
         <Header />
         <Routes>

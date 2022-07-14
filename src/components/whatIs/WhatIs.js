@@ -16,7 +16,7 @@ const WhatIs = () => {
       <div className="text-center d-flex row align-items-center p-0 m-0">
         <img src={van_grayscale} alt="" className="img-fluid p-0" />
         <div
-          className={`position-absolute text-center display-6 text-uppercase ${styles.h1}`}
+          className={`position-absolute text-center display-5 text-uppercase ${styles.h1}`}
         >
           Steelman Society is about being the change
         </div>
@@ -24,7 +24,7 @@ const WhatIs = () => {
 
       <div data-aos="fade-up">
         <main className={` ${styles.main} `}>
-          <div className="container-lg bg-light rounded">
+          <div className="container-lg rounded">
             <div className="row justify-content-center my-5 py-5">
               <div className="col-md-5 text-center text-md-start">
                 <h1>
@@ -67,7 +67,7 @@ const WhatIs = () => {
       </div>
       <div data-aos="fade-up">
         <main className={` ${styles.main} `}>
-          <div className="container-lg bg-light rounded">
+          <div className="container-lg  rounded">
             <div className="row justify-content-center my-5 py-5">
               <div className="col-md-5 text-center text-md-start">
                 <h1>

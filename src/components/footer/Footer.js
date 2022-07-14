@@ -1,6 +1,6 @@
 import React from "react";
-import { MDBFooter } from "mdb-react-ui-kit";
 import styles from "./Footer.module.css";
+import { MDBFooter } from "mdb-react-ui-kit";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faHome, faPhone } from "@fortawesome/free-solid-svg-icons";
 import {
@@ -9,33 +9,31 @@ import {
   faTwitter,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
-import Steelman_Logo from "../../assets/images/Steelman_Logo.png";
-// import { faMail } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = (props) => {
   return (
-    <MDBFooter className="text-center text-muted">
+    <MDBFooter className="text-center">
       <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
         <div className="container text-center">
-          <a href="" className="mx-4 text-reset text-center">
+          <a href="#!" className="mx-4 text-reset text-center">
             <FontAwesomeIcon
               className={`me-3 ${styles.icon}`}
               icon={faTwitter}
             />
           </a>
-          <a href="" className="mx-4 text-reset">
+          <a href="#!" className="mx-4 text-reset">
             <FontAwesomeIcon
               className={`me-3 ${styles.icon}`}
               icon={faYoutube}
             />
           </a>
-          <a href="" className="mx-4 text-reset">
+          <a href="#!" className="mx-4 text-reset">
             <FontAwesomeIcon
               className={`me-3 ${styles.icon}`}
               icon={faInstagram}
             />
           </a>
-          <a href="" className="mx-4 text-reset">
+          <a href="#!" className="mx-4 text-reset">
             <FontAwesomeIcon
               className={`me-3 ${styles.icon}`}
               icon={faLinkedin}

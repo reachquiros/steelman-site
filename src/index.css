@@ -1,9 +1,41 @@
 :root {
-  --dark-orange: #f5683c;
-  --light-orange: #e99469;
-  --pale: #f4f2ee;
-  --light-green: #48c7b3;
-  --dark-green: #277467;
+  --main-bg: #f4f2ee;
+  --sec-bg: white;
+  --highlight: #f5683c;
+  --highlight-lighter: #e99469;
+  --shadow: #277467;
+  --shadow-lighter: #48c7b3;
+  --text-main: black;
+  --text-sec: #6c757d;
+}
+
+.light {
+  --main-bg: #f4f2ee;
+  --sec-bg: white;
+  --highlight: #f5683c;
+  --highlight-lighter: #e99469;
+  --shadow: #277467;
+  --shadow-lighter: #48c7b3;
+  --text-main: black;
+  --text-sec: #4a4e52;
+  --text-highlight: #79736a;
+}
+
+.dark {
+  --main-bg: #29241a;
+  --sec-bg: #181a1b;
+  --highlight: #f5683c;
+  --highlight-lighter: #e99469;
+  --shadow: #277467;
+  --shadow-lighter: #48c7b3;
+  --text-main: #e8e6e3;
+  --text-sec: #cecdc8;
+  --text-highlight: #9e9689;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }
 
 body {
@@ -13,9 +45,5 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  background: var(--main-bg);
 }

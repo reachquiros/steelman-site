@@ -1,19 +1,16 @@
 import React from "react";
-import styles from "./Nav.module.css";
 import "./Nav.css";
 import Steelman_Logo from "../../assets/images/Steelman_Logo.png";
 import "bootstrap/js/src/collapse.js";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faBarsStaggered } from "@fortawesome/free-solid-svg-icons";
-// import { faYoutube } from "@fortawesome/free-brands-svg-icons";
+
 import { Link } from "react-router-dom";
 
 const Nav = (props) => {
   return (
     <div>
-      <nav className="navbar py-0 navbar-expand-lg navbar-light">
+      <nav className="navbar py-0 navbar-expand-lg navbar">
         <div className="container-fluid">
-          <Link to="/" className={`navbar-brand ${styles.brand}`}>
+          <Link to="/" className="navbar-brand brand">
             <img
               src={Steelman_Logo}
               alt=""

@@ -3,10 +3,10 @@ import styles from "./Card.module.css";
 
 const Card = () => {
   return (
-    <div className={`container  ${styles.cardContainer}`}>
+    <div className={`container`}>
       <div className="row ">
         <div className="col-lg-6 col-sm-12 p-3">
-          <div className="card shadow-sm ">
+          <div className={`card shadow-sm ${styles.card} `}>
             <img
               src="https://picsum.photos/600/400?blur"
               className="card-img-top"
@@ -23,7 +23,7 @@ const Card = () => {
           </div>
         </div>
         <div className="col-lg-6 col-sm-12 p-3">
-          <div className="card shadow-sm">
+          <div className={`card shadow-sm ${styles.card} `}>
             <img
               src="https://picsum.photos/600/400?grayscale"
               className="card-img-top"

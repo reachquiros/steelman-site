@@ -5,7 +5,7 @@ import Nav from "./Nav";
 const Header = (props) => {
   return (
     <div className="container">
-      <header className={styles.myBackground}>
+      <header className={styles.header}>
         <Nav />
       </header>
     </div>
