@@ -3,9 +3,9 @@ import styles from "./Card.module.css";
 
 const Card = () => {
   return (
-    <div className={`container ${styles.cardContainer}`}>
-      <div className="row g-2 row-cols-1 row-cols-md-2 g-4">
-        <div className="col p-3">
+    <div className={`container  ${styles.cardContainer}`}>
+      <div className="row ">
+        <div className="col-lg-6 col-sm-12 p-3">
           <div className="card shadow-sm ">
             <img
               src="https://picsum.photos/600/400?blur"
@@ -22,7 +22,7 @@ const Card = () => {
             </div>
           </div>
         </div>
-        <div className="col p-3">
+        <div className="col-lg-6 col-sm-12 p-3">
           <div className="card shadow-sm">
             <img
               src="https://picsum.photos/600/400?grayscale"

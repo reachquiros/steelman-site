@@ -22,8 +22,8 @@ const Home = (props) => {
         />
       </div>
       <div data-aos="fade-in">
-        <div className="my-5 mx-2">
-          <div className="p-5 m-5 text-center">
+        <div className="container my-5">
+          <div className="my-5 py-5 text-center">
             <h1 className={`${styles.title}`}>
               Lorem ipsum, dolor sit amet consectetur adipisicing.
             </h1>
@@ -42,7 +42,7 @@ const Home = (props) => {
         </div>
       </div>
 
-      <div className="container m-5 mx-auto p-5">
+      <div className="container mt-5 mx-auto">
         <Card />
         <Card />
       </div>
