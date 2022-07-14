@@ -42,7 +42,7 @@ const Home = (props) => {
         </div>
       </div>
 
-      <div className="container mt-5 mx-auto">
+      <div className="container mt-5 mx-auto my-5 py-5">
         <Card />
         <Card />
       </div>
