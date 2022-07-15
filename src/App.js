@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "./App.module.css";
 import DarkMode from "./components/dark-mode/DarkMode";
 import "./App.css";
@@ -14,6 +14,15 @@ import ContactUs from "./components/contact-us/ContactUs";
 import SignIn from "./components/signIn/SignIn";
 
 function App() {
+  useEffect(() => {
+    const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+    if (prefersDarkScheme.matches) {
+      document.body.classList.add("dark");
+    } else {
+      document.body.classList.remove("dark");
+    }
+  }, []);
+
   return (
     <div className={`App`}>
       <div className="container-fluid px-0">
