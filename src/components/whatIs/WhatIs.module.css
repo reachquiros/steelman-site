@@ -2,3 +2,19 @@
   font-family: "Nanum Myeongjo", serif;
   color: white;
 }
+
+.mainContainer {
+  background-color: var(--sec-bg);
+}
+
+.h2 {
+  color: var(--text-main);
+}
+
+.h3 {
+  color: var(--text-sec);
+}
+
+.p {
+  color: var(--text-main);
+}

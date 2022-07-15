@@ -1,0 +1,8 @@
+.intro {
+  height: 100%;
+}
+
+.card {
+  background-color: var(--sec-bg);
+  color: var(--text-main);
+}
