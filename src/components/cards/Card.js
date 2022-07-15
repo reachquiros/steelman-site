@@ -5,7 +5,7 @@ const Card = () => {
   return (
     <div className={`container`}>
       <div className="row ">
-        <div className="col-lg-6 col-sm-12 p-3">
+        <div className="col-lg-6 col-sm-12 p-1">
           <div className={`card shadow-sm ${styles.card} `}>
             <img
               src="https://picsum.photos/600/400?blur"
@@ -22,7 +22,7 @@ const Card = () => {
             </div>
           </div>
         </div>
-        <div className="col-lg-6 col-sm-12 p-3">
+        <div className="col-lg-6 col-sm-12 p-1">
           <div className={`card shadow-sm ${styles.card} `}>
             <img
               src="https://picsum.photos/600/400?grayscale"
