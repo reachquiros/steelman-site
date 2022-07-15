@@ -56,6 +56,11 @@ const Nav = (props) => {
                   Contact Us
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link to="/sign-in" className="nav-link nav-link-ltr">
+                  Sign In
+                </Link>
+              </li>
             </ul>
           </div>
         </div>

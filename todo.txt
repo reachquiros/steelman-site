@@ -11,6 +11,8 @@
 15. Need to fix what-is container to wrap around img. 
 16. Need to optimize all images and manually set them.
 17. Need to fix what-is h1 overlay flashing at the top upon refresh.
+18. Take a look at the theme colors again and make sure they're fully optimized.
+19. Add a log in page
 
 ----- Dark mode
 1. Refactor code to only use bootstrap for responsiveness. ##

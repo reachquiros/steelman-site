@@ -11,6 +11,7 @@ import WhatIs from "./components/whatIs/WhatIs";
 import Events from "./components/events/Events";
 import Locations from "./components/locations/Locations";
 import ContactUs from "./components/contact-us/ContactUs";
+import SignIn from "./components/signIn/SignIn";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route exact path="/events" element={<Events />}></Route>
           <Route exact path="/locations" element={<Locations />}></Route>
           <Route exact path="/contact-us" element={<ContactUs />}></Route>
+          <Route exact path="/sign-in" element={<SignIn />}></Route>
         </Routes>
         <div>
           <Footer />
