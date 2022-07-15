@@ -8,6 +8,9 @@
 12. Create collage for events page.
 13. Add dark mode to website that uses cookies to remember your choice. 
 14. Work on events page and contact page.
+15. Need to fix what-is container to wrap around img. 
+16. Need to optimize all images and manually set them.
+17. Need to fix what-is h1 overlay flashing at the top upon refresh.
 
 ----- Dark mode
 1. Refactor code to only use bootstrap for responsiveness. ##

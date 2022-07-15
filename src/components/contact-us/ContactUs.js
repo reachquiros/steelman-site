@@ -8,7 +8,7 @@ const ContactUs = () => {
       <section className={`intro ${styles.intro}`}>
         <div className="mask d-flex align-items-center h-100">
           <div className="container">
-            <div className="row justify-content-center mt-5">
+            <div className="row justify-content-center my-5">
               <div className={`col-12 col-lg-10 col-xl-10 `}>
                 <div className={`card ${styles.card} `}>
                   <div className="card-body m-3 p-4 p-md-5">
