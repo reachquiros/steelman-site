@@ -52,11 +52,6 @@ const Nav = (props) => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/contact-us" className="nav-link nav-link-ltr">
-                  Contact Us
-                </Link>
-              </li>
-              <li className="nav-item">
                 <Link to="/sign-in" className="nav-link nav-link-ltr">
                   Sign In
                 </Link>
