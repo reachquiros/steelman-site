@@ -2,12 +2,13 @@
   --main-bg: #f4f2ee;
   --sec-bg: white;
   --highlight: #f5683c;
-  --highlight-lighter: #e99469;
+  --highlight-hover: #e99469;
   --shadow: #277467;
-  --shadow-lighter: #48c7b3;
+  --shadow-hover: #48c7b3;
   --text-main: black;
-  --text-sec: #6c757d;
+  --text-sec: #4a4e52;
   --text-hover: #79736a;
+  --divider: #e8e6e3;
 }
 
 .light {
