@@ -6,3 +6,21 @@
   background-color: var(--sec-bg);
   color: var(--text-main);
 }
+
+.input {
+  -webkit-appearance: none;
+  box-shadow: none !important;
+  background-color: var(--sec-bg);
+  border-color: var(--text-sec);
+  color: var(--text-main);
+}
+
+.input:focus {
+  background-color: var(--sec-bg);
+  outline: 2px solid var(--highlight);
+  color: var(--text-main);
+}
+
+.input:hover {
+  background: var(--main-bg);
+}

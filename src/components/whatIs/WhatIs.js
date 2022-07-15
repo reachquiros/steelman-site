@@ -32,7 +32,7 @@ const WhatIs = () => {
                   <h2 className={`display-5 ${styles.h2} `}>Our Mission</h2>
                   <h3 className={`display-6 ${styles.h3}`}>Forging the Self</h3>
                 </div>
-                <div className={`lead my-4 ${styles.p}`}>
+                <div className={`lead my-4 text-left ${styles.p}`}>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Esse, est laboriosam provident aut aliquam voluptas quod eum
@@ -81,7 +81,8 @@ const WhatIs = () => {
                     Growth Through Strife
                   </h3>
                 </div>
-                <div className={`lead my-4 ${styles.p}`}>
+
+                <div className={`lead my-4 text-left ${styles.p}`}>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Esse, est laboriosam provident aut aliquam voluptas quod eum

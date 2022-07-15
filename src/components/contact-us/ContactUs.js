@@ -21,7 +21,7 @@ const ContactUs = () => {
                             <input
                               type="text"
                               id="firstName"
-                              className="form-control"
+                              className={`form-control ${styles.input}`}
                             />
                             <label className="form-label" htmlFor="firstName">
                               First Name
@@ -33,7 +33,7 @@ const ContactUs = () => {
                             <input
                               type="text"
                               id="lastName"
-                              className="form-control"
+                              className={`form-control ${styles.input}`}
                             />
                             <label className="form-label" htmlFor="lastName">
                               Last Name
@@ -47,7 +47,7 @@ const ContactUs = () => {
                           <div className="form-outline datepicker">
                             <input
                               type="text"
-                              className="form-control"
+                              className={`form-control ${styles.input}`}
                               id="birthdayDate"
                             />
                             <label
@@ -117,7 +117,7 @@ const ContactUs = () => {
                             <input
                               type="email"
                               id="emailAddress"
-                              className="form-control"
+                              className={`form-control ${styles.input}`}
                             />
                             <label
                               className="form-label"
@@ -132,7 +132,7 @@ const ContactUs = () => {
                             <input
                               type="tel"
                               id="phoneNumber"
-                              className="form-control"
+                              className={`form-control ${styles.input}`}
                             />
                             <label className="form-label" htmlFor="phoneNumber">
                               Phone Number
