@@ -1,5 +1,10 @@
 .footerBottom {
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: rgba(0, 0, 0, 0.09);
+  color: var(--text-hover);
+}
+
+.iconContainer {
+  border-bottom: 1px solid var(--divider);
 }
 
 .icon {
@@ -16,4 +21,12 @@
   transform: scale(1.25);
   cursor: pointer;
   transition: 0.5 ease-in-out;
+}
+
+h6 {
+  color: var(--text-sec);
+}
+
+.col {
+  color: var(--text-sec);
 }

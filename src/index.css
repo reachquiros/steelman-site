@@ -7,30 +7,33 @@
   --shadow-lighter: #48c7b3;
   --text-main: black;
   --text-sec: #6c757d;
+  --text-hover: #79736a;
 }
 
 .light {
   --main-bg: #f4f2ee;
   --sec-bg: white;
   --highlight: #f5683c;
-  --highlight-lighter: #e99469;
+  --highlight-hover: #e99469;
   --shadow: #277467;
-  --shadow-lighter: #48c7b3;
+  --shadow-hover: #48c7b3;
   --text-main: black;
   --text-sec: #4a4e52;
-  --text-highlight: #79736a;
+  --text-hover: #79736a;
+  --divider: #e8e6e3;
 }
 
 .dark {
   --main-bg: #29241a;
   --sec-bg: #181a1b;
-  --highlight: #f5683c;
-  --highlight-lighter: #e99469;
-  --shadow: #277467;
-  --shadow-lighter: #48c7b3;
+  --highlight: #e99469;
+  --highlight-hover: #f5683c;
+  --shadow: #48c7b3;
+  --shadow-hover: #277467;
   --text-main: #e8e6e3;
   --text-sec: #cecdc8;
-  --text-highlight: #9e9689;
+  --text-hover: #9e9689;
+  --divider: #3b3b3b;
 }
 
 code {

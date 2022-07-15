@@ -12,7 +12,7 @@ const Card = () => {
               className="card-img-top"
               alt="..."
             />
-            <div className="card-body">
+            <div className={`card-body my-3 mx-2 ${styles.cardBody}`}>
               <h5 className="card-title">Card title</h5>
               <p className="card-text">
                 This is a longer card with supporting text below as a natural
@@ -29,7 +29,7 @@ const Card = () => {
               className="card-img-top"
               alt="..."
             />
-            <div className="card-body">
+            <div className="card-body my-3 mx-2">
               <h5 className="card-title">Card title</h5>
               <p className="card-text">
                 This is a longer card with supporting text below as a natural

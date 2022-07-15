@@ -13,7 +13,9 @@ import {
 const Footer = (props) => {
   return (
     <MDBFooter className="text-center">
-      <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <section
+        className={`d-flex justify-content-center justify-content-lg-between p-4 ${styles.iconContainer} `}
+      >
         <div className="container text-center">
           <a href="#!" className="mx-4 text-reset text-center">
             <FontAwesomeIcon
@@ -45,8 +47,12 @@ const Footer = (props) => {
       <section className="">
         <div className="container text-center text-md-start mt-5">
           <div className="row mt-3">
-            <div className="col-md-4 col-lg-4 col-xl-3 mx-auto mb-4">
-              <h6 className="text-uppercase fw-bold mb-4">Steelman Society</h6>
+            <div
+              className={`col-md-4 col-lg-4 col-xl-3 mx-auto mb-4 ${styles.col}`}
+            >
+              <h6 className={`text-uppercase fw-bold mb-4`}>
+                Steelman Society
+              </h6>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel
                 sit quibusdam id accusantium, hic fugit vero laudantium quo ab
@@ -54,8 +60,10 @@ const Footer = (props) => {
               </p>
             </div>
 
-            <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-              <h6 className="text-uppercase fw-bold mb-4">Useful links</h6>
+            <div
+              className={`col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 ${styles.col}`}
+            >
+              <h6 className={`text-uppercase fw-bold mb-4 `}>Useful links</h6>
               <p>
                 <a href="#!" className="text-reset">
                   Locations
@@ -78,8 +86,12 @@ const Footer = (props) => {
               </p>
             </div>
 
-            <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-              <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
+            <div
+              className={`col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 ${styles.col}`}
+            >
+              <h6 className={`text-uppercase fw-bold mb-4 ${styles.h6}`}>
+                Contact
+              </h6>
               <p>
                 <FontAwesomeIcon className={`me-3`} icon={faHome} />
                 Los Angeles

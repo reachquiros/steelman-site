@@ -1,9 +1,11 @@
 .title {
   font-family: "Nanum Myeongjo", serif;
   font-size: 2em;
+  color: var(--text-main);
 }
 
 .subtitle {
   font-family: "Nanum Myeongjo", serif;
   font-size: 1.5em;
+  color: var(--text-sec);
 }

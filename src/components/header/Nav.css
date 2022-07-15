@@ -5,7 +5,7 @@
 }
 
 .brand:hover {
-  color: var(--text-highlight);
+  color: var(--text-main);
 }
 
 .navbar-toggler {
@@ -34,7 +34,7 @@
   position: absolute;
   height: 1px;
   width: 100%;
-  background: #f5683c;
+  background: var(--highlight);
   border-radius: 1px;
   opacity: 1;
   left: 0;
@@ -77,14 +77,14 @@
 }
 
 .navbar-toggler.collapsed .toggler-icon {
-  background: #13486d;
+  background: var(--shadow);
 }
 
 .nav-link {
   font-size: 14px;
   text-transform: uppercase;
   text-decoration: none;
-  color: #13486d;
+  color: var(--text-sec);
   padding: 15px 0px;
   margin: 0px 15px;
   display: inline-block;
@@ -94,6 +94,11 @@
 
 .nav-link:hover {
   opacity: 1;
+  color: var(--text-main);
+}
+
+.nav-link:focus {
+  color: var(--text-main);
 }
 
 .nav-link::before {
@@ -101,7 +106,7 @@
   height: 1px;
   content: "";
   position: absolute;
-  background-color: #13486d;
+  background-color: var(--shadow);
 }
 
 .nav-link-ltr::before {

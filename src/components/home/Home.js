@@ -11,7 +11,7 @@ const Home = (props) => {
     Aos.init({ duration: 2000 });
   }, []);
   return (
-    <div className={`${styles.body}`}>
+    <div>
       <div className="container-fluid p-0">
         <img
           src={desk_cook}
