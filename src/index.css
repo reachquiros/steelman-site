@@ -8,7 +8,6 @@
   --text-main: black;
   --text-sec: #6c757d;
   --text-hover: #79736a;
-  background-color: var(--main-bg);
 }
 
 .light {
