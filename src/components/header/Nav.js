@@ -1,6 +1,6 @@
 import React from "react";
-import "./Nav.css";
 import Steelman_Logo from "../../assets/images/Steelman_Logo.png";
+import "./Nav.css";
 import "bootstrap/js/src/collapse.js";
 
 import { Link } from "react-router-dom";

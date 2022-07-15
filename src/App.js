@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import styles from "./App.module.css";
-import DarkMode from "./components/dark-mode/DarkMode";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Routes, Route } from "react-router-dom";

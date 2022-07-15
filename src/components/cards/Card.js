@@ -1,4 +1,6 @@
 import React from "react";
+import pattern_grayscale_card from "../../assets/images/pattern_grayscale_card.jpg";
+import compass_card from "../../assets/images/compass_card.jpg";
 import styles from "./Card.module.css";
 
 const Card = () => {
@@ -8,7 +10,7 @@ const Card = () => {
         <div className="col-lg-6 col-sm-12 p-1">
           <div className={`card shadow-sm ${styles.card} `}>
             <img
-              src="https://picsum.photos/600/400?blur"
+              src={pattern_grayscale_card}
               className="card-img-top"
               alt="..."
             />
@@ -24,11 +26,7 @@ const Card = () => {
         </div>
         <div className="col-lg-6 col-sm-12 p-1">
           <div className={`card shadow-sm ${styles.card} `}>
-            <img
-              src="https://picsum.photos/600/400?grayscale"
-              className="card-img-top"
-              alt="..."
-            />
+            <img src={compass_card} className="card-img-top" alt="..." />
             <div className="card-body my-3 mx-2">
               <h5 className="card-title">Card title</h5>
               <p className="card-text">
