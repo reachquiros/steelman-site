@@ -18,13 +18,14 @@
   -webkit-appearance: none;
   box-shadow: none !important;
   background-color: var(--sec-bg);
-  border-color: var(--text-sec);
-  color: var(--text-main);
+  border-color: var(--divider);
+  color: var(--text-sec);
 }
 
 .input:focus {
   background-color: var(--sec-bg);
   outline: 1px solid var(--shadow);
+  outline-radius: 5px;
   color: var(--text-main);
 }
 
