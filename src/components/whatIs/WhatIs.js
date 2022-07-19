@@ -4,13 +4,13 @@ import rows from "../../assets/images/rows.jpg";
 import desktop from "../../assets/images/desktop.jpg";
 import styles from "./WhatIs.module.css";
 
-// import Aos from "aos";
-// import "aos/dist/aos.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const WhatIs = () => {
-  // useEffect(() => {
-  //   Aos.init({ duration: 2000 });
-  // }, []);
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <div>
       <div className="container-fluid p-0"></div>
@@ -18,6 +18,7 @@ const WhatIs = () => {
         <img src={van_grayscale} alt="" className="img-fluid p-0" />
         <div
           className={`position-absolute text-center display-5 text-uppercase ${styles.h1}`}
+          data-aos="fade-in"
         >
           Steelman Society is about being the change
         </div>
